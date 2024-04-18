@@ -1,0 +1,94 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: blueviolet ;
+    padding-bottom: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 5px;
+  }
+  
+  .logo h1 {
+color: red;
+
+  }
+
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: white;
+  }
+
+  .colour{
+    background-color: thistle;
+  }
+  
+  /* Page Specific Styles */
+  .hero {
+    text-align: center;
+    padding: 100px 0;
+    background-image: url('https://my.avon.co.za/mediamarket-za-jt/19862/leaping_unq_6b419929f4db47bea6cbc4bb048732c7.jpg');
+    background-size: cover;
+    color: #fff;
+    padding-bottom: 300px;
+  }
+  
+  .hero-content {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(250px,1fr));
+    grid-gap: 10px;
+}
+
+.image {
+    margin: 5px;
+    border: 2px solid #ccc;
+    border-radius: 9px;
+    overflow: hidden;
+}
+
+.image img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+  .about{
+    color: black;
+  }
+  
+  .about, .services, .contact {
+    text-align: center;
+    padding: 50px 0;
+  }
+
+  
+  footer {
+    background-color: palevioletred;
+    color: white;
+    text-align: center;
+    height: 60px;
+    position: absolute;
+    padding-left: 600px;
+    padding-right: 600px;
+  }
